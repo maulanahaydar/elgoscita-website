@@ -5,68 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Elgos Cita Publisher</title>
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <div class="container nav">
-      <div class="logo">
-       <img src="images/logo-elgos.png" alt="Logo Elgos">
-       <span>Elgos Cita Publisher</span>
-      </div>
-
+    <div class="container header-inner">
       <nav>
         <a href="#tentang">Tentang</a>
-        <a href="#layanan">Layanan</a>
         <a href="#program">Program</a>
+        <a href="#publikasi">Publikasi</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#struktur">Struktur</a>
         <a href="#kontak">Kontak</a>
       </nav>
     </div>
   </header>
 
   <section class="hero">
-    <div class="container hero-wrap">
+    <div class="hero-overlay"></div>
 
-      <div class="hero-text">
-        <p class="tagline">Membangun Budaya Literasi dan Publikasi</p>
+    <div class="container hero-content">
 
-        <h1>Menerbitkan gagasan menjadi karya bernilai.</h1>
+      <img src="images/logo-elgos.png" alt="Logo Elgos" class="hero-logo">
 
-        <p class="desc">
-          Elgos Cita Publisher adalah lembaga penerbitan yang berkomitmen menghadirkan karya berkualitas, edukatif, dan inspiratif untuk mendukung pengembangan ilmu pengetahuan, pendidikan, dan budaya literasi.
-        </p>
+      <p class="hero-tagline">Membangun Budaya Literasi dan Publikasi</p>
 
-        <a href="#kontak" class="btn">Terbitkan Karya Anda</a>
-      </div>
+      <h1>Elgos Cita Publisher</h1>
 
-      <div class="hero-card">
-        <h3>Mitra Publikasi</h3>
-        <p>Akademisi</p>
-        <p>Peneliti</p>
-        <p>Guru</p>
-        <p>Mahasiswa</p>
-        <p>Komunitas</p>
-        <p>Penulis Umum</p>
+      <p class="hero-desc">
+        Lembaga penerbitan yang berkomitmen menghadirkan karya-karya berkualitas, edukatif, dan inspiratif untuk mendukung pengembangan ilmu pengetahuan, pendidikan, dan budaya literasi.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#publikasi" class="btn">Lihat Publikasi</a>
+        <a href="#kontak" class="btn secondary">Hubungi Kami</a>
       </div>
 
     </div>
   </section>
 
-  <section class="section vision-section">
-    <div class="container">
+  <section id="tentang" class="section">
+    <div class="container narrow">
+      <span class="section-kicker">Tentang Kami</span>
+      <h2>Menjadi mitra penerbitan yang bernilai dan berdampak luas</h2>
 
-      <h2>Visi, Misi, dan Tujuan</h2>
+      <p>
+        Elgos Cita Publisher adalah lembaga penerbitan yang berkomitmen menghadirkan karya-karya berkualitas, edukatif, dan inspiratif bagi masyarakat. Elgos mendukung publikasi buku, karya ilmiah, bahan ajar, dan berbagai terbitan lainnya sebagai bagian dari upaya membangun budaya literasi, pengembangan ilmu pengetahuan, dan kemajuan pendidikan.
+      </p>
+
+      <p>
+        Dengan mengedepankan profesionalisme, mutu editorial, dan inovasi digital, Elgos Cita Publisher hadir sebagai mitra bagi akademisi, peneliti, guru, mahasiswa, penulis, dan komunitas dalam menerbitkan karya yang bernilai dan berdampak luas.
+      </p>
+    </div>
+  </section>
+
+  <section class="section soft-bg">
+    <div class="container">
+      <span class="section-kicker">Visi, Misi, dan Tujuan</span>
+      <h2>Arah kelembagaan Elgos Cita Publisher</h2>
 
       <div class="vision-grid">
 
-        <div class="vision-card">
+        <div class="glass-card">
           <h3>Visi</h3>
           <p>
             Menjadi penerbit profesional, kredibel, dan inovatif dalam mengembangkan ilmu pengetahuan, pendidikan, dan budaya literasi.
           </p>
         </div>
 
-        <div class="vision-card">
+        <div class="glass-card">
           <h3>Misi</h3>
           <ul>
             <li>Menerbitkan karya berkualitas yang edukatif, ilmiah, dan inspiratif.</li>
@@ -76,127 +87,11 @@
           </ul>
         </div>
 
-        <div class="vision-card">
+        <div class="glass-card">
           <h3>Tujuan</h3>
           <p>
             Menjadi wadah penerbitan yang terpercaya untuk menyebarluaskan gagasan, pengetahuan, dan karya yang bermanfaat bagi dunia pendidikan dan masyarakat.
           </p>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <section class="section books">
-    <div class="container">
-
-      <h2>Katalog Publikasi</h2>
-
-      <p class="section-desc">
-        Koleksi karya terbitan Elgos Cita Publisher yang mendukung pengembangan ilmu pengetahuan, pendidikan, dan budaya literasi.
-      </p>
-
-    <div class="book-grid">
-
-      <div class="book-card">
-        <img src="images/book1.jpg" alt="Book 1">
-        <div class="book-info">
-          <h3>Pembelajaran Integratif Tauhidik</h3>
-          <p class="book-author">Ahmad Suryadi</p>
-          <p class="book-desc">
-            Buku pendidikan integratif yang menghubungkan tauhid, ilmu, dan pembentukan karakter belajar.
-          </p>
-          <div class="book-bottom">
-            <span class="price">Rp85.000</span>
-            <a href="#" class="buy-btn">Beli</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="book-card">
-        <img src="images/book2.jpg" alt="Book 2">
-        <div class="book-info">
-          <h3>Usia Senja di Kota Makkah</h3>
-          <p class="book-author">Tarmizi S</p>
-          <p class="book-desc">
-            Refleksi spiritual tentang usia, perjalanan hidup, dan makna pulang menuju Tuhan.
-          </p>
-          <div class="book-bottom">
-            <span class="price">Rp95.000</span>
-            <a href="#" class="buy-btn">Beli</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="book-card">
-        <img src="images/book3.png" alt="Book 3">
-        <div class="book-info">
-          <h3>Pemimpin 2045</h3>
-          <p class="book-author">Rabiatul Adawiyah Hamid</p>
-          <p class="book-desc">
-            Gagasan kepemimpinan masa depan untuk menyiapkan generasi unggul menuju Indonesia Emas.
-          </p>
-          <div class="book-bottom">
-            <span class="price">Rp110.000</span>
-            <a href="#" class="buy-btn">Beli</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="book-card promo-card">
-        <img src="images/book4.png" alt="Terbitkan Buku">
-        <div class="book-info">
-          <h3>Terbitkan Buku Anda</h3>
-          <p class="book-desc">
-            Punya naskah, ide, atau karya ilmiah? Elgos siap membantu proses editing, desain, ISBN, dan publikasi.
-          </p>
-          <div class="book-bottom">
-            <span class="price">Mulai sekarang</span>
-            <a href="#kontak" class="buy-btn">Hubungi</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    </div>
-  </section>
-
-  <section id="tentang" class="section">
-    <div class="container">
-      <h2>Tentang Kami</h2>
-
-      <p>
-        Elgos Cita Publisher mendukung publikasi buku, karya ilmiah, bahan ajar, monograf, antologi, dan berbagai terbitan lainnya sebagai bagian dari upaya membangun budaya literasi, pengembangan ilmu pengetahuan, dan kemajuan pendidikan.
-      </p>
-
-      <p>
-        Elgos Cita Publisher hadir sebagai mitra penerbitan yang mengedepankan profesionalisme, mutu editorial, dan inovasi digital agar setiap naskah berkembang menjadi karya yang bernilai dan berdampak luas.
-      </p>
-    </div>
-  </section>
-
-  <section id="layanan" class="section gray">
-    <div class="container">
-
-      <h2>Layanan</h2>
-
-      <div class="cards">
-
-        <div class="card">
-          <h3>Penerbitan Buku</h3>
-          <p>Buku akademik, referensi, monograf, buku ajar, dan karya umum.</p>
-        </div>
-
-        <div class="card">
-          <h3>Editing Profesional</h3>
-          <p>Penyuntingan bahasa, substansi, struktur isi, dan layout.</p>
-        </div>
-
-        <div class="card">
-          <h3>Digital Publishing</h3>
-          <p>E-book, katalog online, promosi digital, dan distribusi modern.</p>
         </div>
 
       </div>
@@ -205,65 +100,163 @@
 
   <section id="program" class="section">
     <div class="container">
+      <span class="section-kicker">Program</span>
+      <h2>Program Elgos Cita Publisher</h2>
 
-      <h2>Program Unggulan</h2>
+      <div class="program-grid">
 
-      <div class="program-list">
-        <div>Program Penerbitan Naskah</div>
-        <div>Program Pengembangan Penulis</div>
-        <div>Program Editorial & Penjaminan Mutu</div>
-        <div>Program Digitalisasi Penerbitan</div>
-        <div>Program Promosi & Distribusi</div>
-        <div>Program Kemitraan & Jejaring</div>
-        <div>Program Literasi & Pengabdian</div>
+        <div class="program-card"><h3>Program Penerbitan Naskah</h3><p>Penerbitan buku akademik, referensi, monograf, buku ajar, karya populer, antologi, prosiding, dan publikasi kolaboratif.</p></div>
+
+        <div class="program-card"><h3>Program Pengembangan Penulis</h3><p>Pelatihan penulisan buku, klinik naskah, pendampingan penulis, dan strategi publikasi.</p></div>
+
+        <div class="program-card"><h3>Editorial dan Penjaminan Mutu</h3><p>Seleksi naskah, editing substansi, review editor, dan penyusunan standar mutu penerbitan.</p></div>
+
+        <div class="program-card"><h3>Digitalisasi Penerbitan</h3><p>E-book, katalog digital, integrasi media, dan manajemen naskah berbasis sistem.</p></div>
+
+        <div class="program-card"><h3>Promosi dan Distribusi</h3><p>Pemasaran buku melalui platform online, webinar, bedah buku, dan jejaring komunitas.</p></div>
+
+        <div class="program-card"><h3>Kemitraan dan Jejaring</h3><p>Kolaborasi dengan kampus, sekolah, pesantren, komunitas, dan berbagai lembaga.</p></div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="publikasi" class="section soft-bg">
+    <div class="container">
+      <span class="section-kicker">Publikasi</span>
+      <h2>Karya dan Publikasi</h2>
+
+      <div class="book-grid">
+
+        <div class="book-card">
+          <img src="images/book1.jpg">
+          <div class="book-info">
+            <h3>Pembelajaran Integratif Tauhidik</h3>
+            <p class="author">Ahmad Suryadi</p>
+            <p>Buku pendidikan integratif yang menghubungkan tauhid, ilmu, dan pembentukan karakter belajar.</p>
+            <div class="book-bottom">
+              <span>Rp85.000</span>
+              <a href="#">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <img src="images/book2.jpg">
+          <div class="book-info">
+            <h3>Usia Senja di Kota Makkah</h3>
+            <p class="author">Tarmizi S</p>
+            <p>Refleksi spiritual tentang usia, perjalanan hidup, dan makna pulang menuju Tuhan.</p>
+            <div class="book-bottom">
+              <span>Rp95.000</span>
+              <a href="#">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <img src="images/book3.png">
+          <div class="book-info">
+            <h3>Pemimpin 2045</h3>
+            <p class="author">Rabiatul Adawiyah Hamid</p>
+            <p>Gagasan kepemimpinan masa depan untuk menyiapkan generasi unggul menuju Indonesia Emas.</p>
+            <div class="book-bottom">
+              <span>Rp110.000</span>
+              <a href="#">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <img src="images/book4.jpg">
+          <div class="book-info">
+            <h3>Mari Menulis Buku Bersama</h3>
+            <p class="author">Program Publikasi Elgos</p>
+            <p>Wujudkan ide, pengalaman, dan gagasan Anda menjadi buku yang bernilai dan berdampak luas.</p>
+            <div class="book-bottom">
+              <span>Mulai Sekarang</span>
+              <a href="#kontak">Hubungi</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="layanan" class="section">
+    <div class="container">
+      <span class="section-kicker">Layanan</span>
+      <h2>Layanan Penerbitan</h2>
+
+      <div class="service-list">
+        <div>Editing Profesional</div>
+        <div>Desain Cover</div>
+        <div>Layout Isi Buku</div>
+        <div>ISBN</div>
+        <div>Cetak Buku</div>
+        <div>Distribusi dan Promosi</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="struktur" class="section soft-bg">
+    <div class="container">
+      <span class="section-kicker">Organisasi</span>
+      <h2>Struktur Organisasi</h2>
+
+      <div class="org-grid">
+        <div class="glass-card"><h3>Direktur Utama</h3><p>Maulana Haydar</p></div>
+        <div class="glass-card"><h3>Manajer Editorial</h3><p>Nama akan diperbarui</p></div>
+        <div class="glass-card"><h3>Manajer Produksi & Desain</h3><p>Nama akan diperbarui</p></div>
+        <div class="glass-card"><h3>Manajer Distribusi & Kemitraan</h3><p>Nama akan diperbarui</p></div>
+        <div class="glass-card"><h3>Kepala Program Literasi</h3><p>Nama akan diperbarui</p></div>
+        <div class="glass-card"><h3>Administrasi & Sekretariat</h3><p>Nama akan diperbarui</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container narrow">
+      <h2>Terbitkan karya terbaik Anda bersama Elgos Cita Publisher</h2>
+      <p>Kami siap membantu mewujudkan naskah menjadi publikasi yang layak, menarik, dan bermanfaat bagi pembaca.</p>
+      <a href="#kontak" class="btn">Mulai Sekarang</a>
+    </div>
+  </section>
+
+  <footer id="kontak">
+    <div class="container footer-grid">
+
+      <div>
+        <h3>Elgos Cita Publisher</h3>
+        <p>Membangun budaya literasi dan publikasi melalui karya yang berkualitas, edukatif, dan berdampak luas.</p>
+      </div>
+
+      <div>
+        <h4>Kontak</h4>
+        <p>📧 elgoscitapublisher@gmail.com</p>
+        <p>📱 (+62) 8131-881-451</p>
+      </div>
+
+      <div>
+        <h4>Alamat Kantor</h4>
+        <p>
+          Jalan Mawar No. 60 Pisangan,<br>
+          Kecamatan Ciputat Timur,<br>
+          Kota Tangerang Selatan, Banten 15419,<br>
+          Indonesia
+        </p>
+      </div>
+
+      <div>
+        <h4>Sosial Media</h4>
+        <p>📷 Instagram</p>
+        <p>💼 LinkedIn</p>
+        <p>📘 Facebook</p>
       </div>
 
     </div>
-  </section>
-
-  <section class="cta">
-    <div class="container">
-      <h2>Terbitkan karya terbaik Anda bersama kami.</h2>
-      <p>
-        Kami siap membantu mewujudkan naskah menjadi publikasi yang layak, menarik, dan bermanfaat bagi pembaca.
-      </p>
-      <a href="#kontak" class="btn white">Hubungi Kami</a>
-    </div>
-  </section>
-
-<footer id="kontak">
-  <div class="container footer-grid">
-
-    <div>
-      <h3>Elgos Cita Publisher</h3>
-      <p>
-        Membangun budaya literasi dan publikasi melalui karya yang berkualitas,
-        edukatif, dan berdampak luas.
-      </p>
-    </div>
-
-    <div>
-      <h4>Kontak</h4>
-      <p>Email: elgoscitapublisher@gmail.com</p>
-      <p>WhatsApp: (+62) 8131-881-451</p>
-    </div>
-
-    <div>
-      <h4>Alamat Kantor</h4>
-      <p>
-        Jalan Mawar No. 60 Pisangan,<br>
-        Kecamatan Ciputat Timur,<br>
-        Kota Tangerang Selatan, Provinsi Banten 15419,<br>
-        Indonesia
-      </p>
-    </div>
-
-  </div>
-
-  <div class="copyright">
-    © 2026 Elgos Cita Publisher
-  </div>
-</footer>
+  </footer>
 
 </body>
 </html>
