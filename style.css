@@ -225,6 +225,37 @@ footer{
   color:#ddd;
 }
 
+.footer-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr 1.5fr;
+  gap:40px;
+}
+
+footer h3,
+footer h4{
+  margin-bottom:15px;
+  color:white;
+}
+
+footer p{
+  color:#ccc;
+  margin-bottom:10px;
+}
+
+.copyright{
+  margin-top:40px;
+  padding-top:20px;
+  border-top:1px solid rgba(255,255,255,.15);
+  text-align:center;
+  color:#aaa;
+}
+
+@media(max-width:900px){
+  .footer-grid{
+    grid-template-columns:1fr;
+  }
+}
+
 @media(max-width:900px){
 
   nav{
