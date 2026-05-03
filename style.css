@@ -111,6 +111,7 @@ h1{
 }
 
 .btn{
+  transition:.35s;
   display:inline-block;
   padding:15px 30px;
   border-radius:999px;
@@ -119,6 +120,11 @@ h1{
   text-decoration:none;
   font-weight:600;
   box-shadow:0 15px 35px rgba(181,139,53,.35);
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 25px 45px rgba(181,139,53,.45);
 }
 
 .btn.secondary{
@@ -173,6 +179,12 @@ p{
   border-radius:24px;
   box-shadow:0 20px 60px rgba(20,40,70,.08);
   border:1px solid rgba(255,255,255,.7);
+  transition:.35s;
+}
+
+.glass-card:hover,
+.program-card:hover{
+  transform:translateY(-8px);
 }
 
 .glass-card h3,
@@ -202,13 +214,24 @@ p{
   border-radius:24px;
   overflow:hidden;
   box-shadow:0 20px 60px rgba(20,40,70,.1);
+  transition:.35s;
+}
+
+.book-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 35px 70px rgba(20,40,70,.16);
 }
 
 .book-card img{
+  transition:.6s;
   width:100%;
   height:360px;
   object-fit:cover;
   display:block;
+}
+
+.book-card:hover img{
+  transform:scale(1.05);
 }
 
 .book-info{
@@ -344,4 +367,48 @@ footer p{
   h1{
     font-size:42px;
   }
+}
+
+.wa-float{
+  position:fixed;
+  right:24px;
+  bottom:24px;
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  background:#25D366;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  text-decoration:none;
+  font-size:30px;
+  box-shadow:0 20px 40px rgba(0,0,0,.2);
+  z-index:9999;
+}
+
+.hero-content{
+  animation:fadeUp 1.2s ease;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+.hidden{
+  opacity:0;
+  transform:translateY(50px);
+  transition:1s;
+}
+
+.show{
+  opacity:1;
+  transform:translateY(0);
 }
