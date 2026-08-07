@@ -504,7 +504,7 @@ footer p{
 ========================================= */
 
 .ikapi-card{
-    max-width:480px;
+    max-width:450px;
     margin:60px auto 0;
     padding:45px;
     background:#fff;
@@ -521,21 +521,9 @@ footer p{
 }
 
 .ikapi-logo{
-    width:140px;
+    width:80px;
     display:block;
     margin:0 auto 22px;
-}
-
-.ikapi-label{
-    display:inline-block;
-    padding:10px 22px;
-    margin-bottom:28px;
-    border-radius:999px;
-    background:#f4f7fb;
-    color:#102847;
-    font-size:13px;
-    font-weight:700;
-    letter-spacing:1.2px;
 }
 
 .ikapi-card h3{
@@ -560,8 +548,8 @@ footer p{
 
 .ikapi-number strong{
     display:block;
-    margin-top:8px;
-    font-size:22px;
+    margin-top:4px;
+    font-size:14px;
     color:#102847;
     letter-spacing:2px;
 }
